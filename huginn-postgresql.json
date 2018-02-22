@@ -102,7 +102,7 @@
                     "from": {
                         "kind": "ImageStreamTag",
                         "namespace": "${NAMESPACE}",
-                        "name": "ruby:2.3"
+                        "name": "b1nitp7iw/huginn-openshift"
                     },
                     "env": [{
                         "name": "APP_SECRET_TOKEN",
@@ -113,6 +113,9 @@
                     }, {
                         "name": "LC_ALL",
                         "value": "en_US.UTF-8"
+                    }, {
+                        "name": "ENABLE_INSECURE_AGENTS",
+                        "value": "true"
                     }, {
                         "name": "ON_HEROKU",
                         "value": "true"
