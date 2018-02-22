@@ -102,7 +102,7 @@
                     "from": {
                         "kind": "ImageStreamTag",
                         "namespace": "${NAMESPACE}",
-                        "name": "b1nitp7iw/huginn-openshift"
+                        "name": "b1nitp7iw/huginn-openshift:latest"
                     },
                     "env": [{
                         "name": "APP_SECRET_TOKEN",
