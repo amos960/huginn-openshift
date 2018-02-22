@@ -97,11 +97,10 @@
                 "contextDir": "${CONTEXT_DIR}"
             },
             "strategy": {
-                "type": "Source",
-                "sourceStrategy": {
+                "type": "Docker",
+                "dockerStrategy": {
                     "from": {
                         "kind": "ImageStreamTag",
-                        "namespace": "${NAMESPACE}",
                         "name": "b1nitp7iw/huginn-openshift:latest"
                     },
                     "env": [{
